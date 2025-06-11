@@ -30,7 +30,6 @@ export const authConfig: AuthOptions = {
         sameSite: 'lax',
         path: '/',
         secure: process.env.NODE_ENV === 'production',
-        domain: process.env.NODE_ENV === 'production' ? '.yourdomain.com' : undefined,
       },
     },
   },
@@ -68,7 +67,7 @@ export const authConfig: AuthOptions = {
           email: token.email,
           name: token.name,
           image: token.picture,
-          role: token.role,
+          // role: token.role,
         }
       };
     },
@@ -80,8 +79,8 @@ export const authConfig: AuthOptions = {
     },
   },
   pages: {
-    signIn: "/",
-    error: "/auth/error",
+    signIn: "/auth",
+    error: "/api/auth/error",
     signOut: "/auth/signout",
   },
   secret: process.env.NEXTAUTH_SECRET,
