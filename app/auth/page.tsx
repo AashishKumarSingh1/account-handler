@@ -47,7 +47,7 @@ function LoginPage() {
               <Database className="h-12 w-12 text-white" />
             </div>
           </div>
-          <h1 className="text-4xl font-bold text-white mb-4">Account Manager</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">Account Handler</h1>
           <p className="text-xl text-blue-100 max-w-md">
             Streamline your inventory management with powerful analytics and real-time tracking
           </p>

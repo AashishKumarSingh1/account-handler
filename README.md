@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 Account Handler – Smart Inventory Management System
 
-## Getting Started
+Welcome to **Account Handler**, your all-in-one solution to effortlessly manage inventory, partners, and business transactions with precision and real-time insights.
 
-First, run the development server:
+>  **Streamline your commodity trading operations** with modern tools designed for performance, visibility, and growth.
+
+---
+
+## Features at a Glance
+
+### Smart Dashboard
+- Visually appealing and interactive dashboard
+- Real-time insights into inventory and partner data
+- Monthly transaction summaries and expense breakdowns
+
+### Real-time Inventory Tracking
+- Monitor **stock levels, weight, and quantity** across all locations
+- Instant updates from partner systems or manual entries
+
+### Partner Management
+- Add and manage **multiple business partners**
+- View partner-specific transactions and inventory contributions
+
+### Comprehensive Analytics
+- Detailed analytics with **charts, graphs, and filters**
+- Insights on sales, purchases, and inventory performance
+
+### Transaction History
+- View all **buy/sell transactions** with rich filtering options
+- **Searchable** by date, partner, product, etc.
+
+### Weight & Quantity Control
+- Track by **unit** or **weight**, with real-time conversion and validation
+
+### Data Security
+- **Enterprise-grade encryption** for data protection
+- Role-based access control (RBAC)
+
+### Export & Reporting
+- Export reports to **PDF, Excel, or CSV**
+- Download individual company/article transaction summaries
+
+### Smart Search & Auto Suggestion
+- Quickly find items, partners, or transactions
+- **Type-ahead suggestions** to boost productivity
+
+---
+
+## Live Preview
+
+> https://account-handler.vercel.app/
+
+---
+
+## 🛠️ Setup & Installation
+
+### 1. Using Docker
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1. Clone the repository
+git clone https://github.com/AashishKumarSingh1/account-handler.git
+cd account-handler
+
+# 2. Create and configure your environment file
+cp .env.example .env
+# Fill in required secrets
+
+# 3. Build the Docker image
+docker build -t account-handler .
+
+# 4. Run the container
+docker run -p 3000:3000 --env-file .env account-handler
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Without Docker
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# 1. Clone the repository
+git clone https://github.com/AashishKumarSingh1/account-handler.git
+cd account-handler
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 2. Install dependencies
+npm install
 
-## Learn More
+# 3. Set up environment variables
+cp .env.example .env
+# Fill in required secrets
 
-To learn more about Next.js, take a look at the following resources:
+# 4. Run the development server
+npm run dev
+ ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ ---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Contributing
+> Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+Developed by Aashish Kumar Singh
+<br />
+>  Smart Inventory Management starts here. <br /> Say goodbye to manual logs and embrace real-time automation!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

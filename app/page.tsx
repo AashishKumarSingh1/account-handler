@@ -126,7 +126,7 @@ export default function LandingPage() {
                 <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">
                   Account
                   <span className="text-blue-600 dark:text-blue-400">
-                    Manager
+                    Handler
                   </span>
                 </span>
               </div>
@@ -422,7 +422,7 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="mt-4 max-w-2xl text-xl text-blue-100 dark:text-blue-200 mx-auto"
           >
-            Get started with Account Manager today and take control of your
+            Get started with Account Handler today and take control of your
             commodity trading operations.
           </motion.p>
           <motion.div
